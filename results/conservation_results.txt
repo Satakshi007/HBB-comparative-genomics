@@ -1,0 +1,10 @@
+Sequences: 4
+Length: 657
+Alignment length: 657
+Conserved positions: 403
+Conservation percentage: 61.339421613394215
+Variable positions: 254
+XM_508242.5 Gaps: 18
+NM_173917.2 Gaps: 24
+NM_000518.5 Gaps: 29
+NM_001278161.1 Gaps: 27

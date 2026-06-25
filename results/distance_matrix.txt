@@ -1,0 +1,5 @@
+Chimpanzee  0.000000
+Cow 0.242009    0.000000
+Human   0.018265    0.225266    0.000000
+Mouse   0.245053    0.328767    0.234399    0.000000
+    Chimpanzee  Cow Human   Mouse
