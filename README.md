@@ -30,6 +30,8 @@ This project compares the Haemoglobin beta(HBB) mRNA gene across four selected v
 ![Phylogenetic tree](results/phylogenetic_tree.png)
 The phylogenetic analysis clustered Human and Chimpanzee together indicating high sequence similarity, while Cow and Mouseb formed more distant branch.
 ## How to Run
+- for running alignment
+  - clustalo -i data/hbb_all.fasta -o results/alignment.aln
 - python scripts/analysis.py 
 - python scripts/phylogeny.py
 ## Future Improvement
