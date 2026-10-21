@@ -38,16 +38,18 @@ HBB mRNA sequences of Human (*Homo sapiens*, NM_000518.5), Chimpanzee (*Pan trog
 | Python 3 | Data analysis |
 | Biopython | Sequence and phylogenetic analysis |
 | Clustal Omega | Multiple sequence alignment |
+| AliView  | Alignment visualisation  |
 | Git & GitHub | Version control and project management |
 
 ### 3.3 Multiple Sequence Alignment
 Multiple sequence alignment was performed in the WSL Ubuntu environment using Clustal Omega through the Bash command line. The aligned sequences were exported in FASTA format and saved as `results/alignment.aln` for downstream analysis.
-
+The aligned sequence was visually inspected using AliView.The alignment was examined for conserved and variable nucleotide positions, gaps, and differences in the terminal regions of the sequences. Particular attention was given to gaps at the beginning and end of the alignment to identify regions that might require further investigation.
 Command used:
 ```bash
 clustalo -i data/hbb_all.fasta -o results/alignment.aln --outfmt=fasta --force
 ```
-
+A snapshot or the overview of the visual in the AliView.
+![HBB multiple sequence alignment inspected in AliView](figures/alignment_AliView.png)
 ### 3.4 Conservation Analysis
 The aligned sequences were analyzed using a Python script developed with Biopython. The script calculated:
 - Total number of sequences
@@ -55,7 +57,8 @@ The aligned sequences were analyzed using a Python script developed with Biopyth
 - Conserved positions
 - Variable positions
 - Conservation percentage
-- Gap count for each sequence
+- Gap count for each sequence h
+
 
 ### 3.5 Phylogenetic Analysis
 Pairwise sequence distances were calculated using the identity distance model in Biopython, and a neighbor-joining phylogenetic tree was constructed from the resulting distance matrix. This was used to infer evolutionary relationships among the selected vertebrate sequences.
