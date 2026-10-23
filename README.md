@@ -33,6 +33,8 @@ The multiple sequence alignment of the four full mRNA sequences produced the fol
 ### Phylogenetic Tree
 ![Phylogenetic tree](results/phylogenetic_tree.png)
 The phylogenetic analysis clustered Human and Chimpanzee together indicating high sequence similarity, while Cow and Mouseb formed more distant branch.
+
+
 2. Coding DNA Sequence (CDS) Analysis
 
 The coding regions were extracted and analysed separately to examine conservation within the protein-coding portions of the gene.
