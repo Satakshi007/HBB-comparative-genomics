@@ -1,0 +1,7 @@
+CDS PAIRWISE DISTANCE MATRIX
+----------------------------
+Human   0.000000
+Chimpanzee  0.002252    0.000000
+Cow 0.148649    0.148649    0.000000
+Mouse   0.177928    0.175676    0.220721    0.000000
+    Human   Chimpanzee  Cow Mouse

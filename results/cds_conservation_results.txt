@@ -1,0 +1,15 @@
+CDS ALIGNMENT ANALYSIS
+----------------------
+Number of sequences: 4
+Alignment length: 444
+Conserved positions: 326
+Conserved percentage: 73.42%
+Variable positions: 118
+Variable percentage: 26.58%
+
+GAP ANALYSIS
+------------
+Human: 0 gaps
+Chimpanzee: 0 gaps
+Cow: 6 gaps
+Mouse: 0 gaps
