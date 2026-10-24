@@ -39,11 +39,11 @@ The phylogenetic analysis clustered Human and Chimpanzee together indicating hig
 
 The coding regions were extracted and analysed separately to examine conservation within the protein-coding portions of the gene.
 
-Number of sequences: 4
-Alignment length: 444 nucleotide columns
-Conserved positions: 326
-Variable positions: 118
-Conserved positions: 73.42%
+- Number of sequences: 4
+- Alignment length: 444 nucleotide columns
+- Conserved positions: 326
+- Variable positions: 118
+- Conserved positions: 73.42%
 
 The CDS alignment was also analysed using IQ-TREE. ModelFinder selected the Kimura two-parameter (K2P) substitution model, and phylogenetic analysis was performed with 1,000 ultrafast bootstrap replicates.
 
@@ -51,7 +51,7 @@ The CDS alignment was also analysed using IQ-TREE. ModelFinder selected the Kimu
 
 Bootstrap analysis was performed using IQ-TREE to assess support for the phylogenetic relationships inferred from the full mRNA sequences and CDS alignment.
 
-Bootstrap support provides an indication of how consistently a grouping appears when alignment columns are resampled. It does not represent the probability that a particular evolutionary relationship is true.
+Bootstrap support provides an indication of how consistently a grouping appears when alignment columns are resampled. 
 ## How to Run
 Full mRNA analysis
 - for running alignment
@@ -59,10 +59,10 @@ Full mRNA analysis
 - python scripts/analysis.py 
 - python scripts/phylogeny.py
 CDS Analysis
-python scripts/extract_cds.py
-python scripts/cds_analysis.py
-python scripts/cds_phylogeny.py
-python scripts/draw_cds_tree.py
+- python scripts/extract_cds.py
+- python scripts/cds_analysis.py
+- python scripts/cds_phylogeny.py
+- python scripts/draw_cds_tree.py
 ## Future Improvement
 - Include additional species.
 - Visualise conserved and variable sequence regions.
